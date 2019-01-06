@@ -1,0 +1,41 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clientsFragId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/clientsListTtlId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ttlMargin"
+            android:text="@string/clientsListTtl"
+            android:textAlignment="center"
+            android:textColor="@color/clientsTtl"
+            android:textSize="@dimen/ttlSize" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/clientsRVId"
+        android:layout_margin="@dimen/btnMargin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/clientsFabId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fabMargin"
+        android:src="@drawable/fab_icon"
+        android:scaleType="center"
+        app:backgroundTint="@android:color/darker_gray"
+        app:fabSize="normal"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:layout_anchor="@id/clientsRVId"
+        app:layout_anchorGravity="bottom|right" />
+</android.support.design.widget.CoordinatorLayout>

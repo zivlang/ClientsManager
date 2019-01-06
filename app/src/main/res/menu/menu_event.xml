@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuViewEventId"
+        android:title="@string/menuViewEvent"/>
+    <item
+        android:id="@+id/menuEditEventId"
+        android:title="@string/menuEditEvent"/>
+    <item
+        android:id="@+id/menuDeleteEventId"
+        android:title="@string/menuDeleteEvent"/>
+</menu>

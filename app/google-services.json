@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "300568101732",
+    "firebase_url": "https://clientsmanager-cea79.firebaseio.com",
+    "project_id": "clientsmanager-cea79",
+    "storage_bucket": "clientsmanager-cea79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300568101732:android:06f8c4b551da14de",
+        "android_client_info": {
+          "package_name": "com.example.clientsmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300568101732-7m5o04ndjgn4ap5q1p91427e48t1n264.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrkXs3rXnXxFH08hUupWE8VZ_E_nj0pxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

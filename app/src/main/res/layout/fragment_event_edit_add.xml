@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/fragAddEditId"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/addEventTtlId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/btnMargin"
+            android:gravity="center"
+            android:hint="@string/newEventTtl"
+            android:textColor="@color/clientsTtl"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/addEventDescNotesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/btnMargin"
+            android:gravity="center"
+            android:hint="@string/newEventDescNotes"
+            android:textColor="@color/clientsTtl"
+            android:textSize="16sp" />
+
+        <CalendarView
+            android:id="@+id/addEventDate"
+            android:layout_width="323dp"
+            android:layout_height="431dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:datePickerMode="spinner"
+            android:gravity="center"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            android:spinnersShown="false" />
+        <TimePicker
+            android:layout_weight="1"
+            android:id="@+id/addEventTime"
+            android:timePickerMode="spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/saveNewEventId"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/btnMargin"
+            android:text="@string/saveEvent"/>
+        <Button
+            android:id="@+id/cancelNewEventId"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/btnMargin"
+            android:text="@string/CancelNew"/>
+    </LinearLayout>
+</LinearLayout>

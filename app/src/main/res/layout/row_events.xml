@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/eventsListRowId"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_margin="@dimen/rowMargin"
+        android:id="@+id/eventRowTtlId"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/rowTxtSize"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/eventTtl"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_margin="@dimen/rowMargin"
+        android:id="@+id/eventRowTimeDateId"
+        android:textSize="@dimen/rowDateTxtSize"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/eventTimeAndDate"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+</LinearLayout>

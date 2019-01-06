@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnTxtSize">20sp</dimen>
+    <dimen name="alertBtnMargin">5dp</dimen>
+    <dimen name="ttlMargin">30dp</dimen>
+    <dimen name="ttlSize">25sp</dimen>
+    <dimen name="rowDateTxtSize">15sp</dimen>
+    <dimen name="rowTxtSize">20sp</dimen>
+    <dimen name="fabMargin">15dp</dimen>
+    <dimen name="btnMargin">10dp</dimen>
+    <dimen name="cellMargin">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="rowMargin">15dp</dimen>
+</resources>
